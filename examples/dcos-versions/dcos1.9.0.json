@@ -5,21 +5,21 @@
       "orchestratorType": "DCOS190"
     },
     "masterProfile": {
-      "count": 3,
-      "dnsPrefix": "",
+      "count": 1,
+      "dnsPrefix": "dcoswibuchdeu",
       "vmSize": "Standard_D2_v2"
     },
     "agentPoolProfiles": [
       {
         "name": "agentprivate",
-        "count": 3,
+        "count": 1,
         "vmSize": "Standard_D2_v2"
       },
       {
         "name": "agentpublic",
-        "count": 3,
+        "count": 1,
         "vmSize": "Standard_D2_v2",
-        "dnsPrefix": "",
+        "dnsPrefix": "dcoswibuchagentdeu",
         "ports": [
           80,
           443,
@@ -32,7 +32,7 @@
       "ssh": {
         "publicKeys": [
           {
-            "keyData": ""
+            "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDWxXC2jpVPaI8TZS6Uz68xmHN40gxXbr2LlHPPVsO0mDzbsWL0aNlr3+0WmILku3FRLBVeXUGfhladn+tZeeskdhxaoHl0vdqJ1wQ1gH3nADnFZ85MvhnFA0AwPRlNIQV5mxi7rRM4joNUBd4JFxuGS1ZMkBSF5/8mvIQ3qaytXA6uoPMGKLFaTXilkdGa+QfyVU13yb3gfQDPUUwabsg7y+hRtRbaKMihcbZOdVN0xlm2rGLMnmWpCavLMgmhjhMV4Cb/gnWrRXz/mjhKNGSWOOi/Zg0wnAWi5ZdpN+y11hbAg4xAtfe4gsiFisAH7XrD0mTRkojw3Ca7jdc/pDPN Will@Wills-MacBook-Air.local"
           }
         ]
       }
