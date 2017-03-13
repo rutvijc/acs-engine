@@ -78,6 +78,7 @@ runcmd:
 - sed -i "s/^Port 22$/Port 22\nPort 2222/1" /etc/ssh/sshd_config
 - service ssh restart
 - bash -c "try=1;until dpkg -i /var/tmp/{1,2,3,4}.deb || ((try>9));do echo retry \$((try++));sleep \$((try*try));done"
+- /opt/azure/containers/provision.sh
 - - cp
   - -p
   - /etc/resolv.conf

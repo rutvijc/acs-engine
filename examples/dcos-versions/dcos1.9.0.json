@@ -32,7 +32,7 @@
       "ssh": {
         "publicKeys": [
           {
-            "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDWxXC2jpVPaI8TZS6Uz68xmHN40gxXbr2LlHPPVsO0mDzbsWL0aNlr3+0WmILku3FRLBVeXUGfhladn+tZeeskdhxaoHl0vdqJ1wQ1gH3nADnFZ85MvhnFA0AwPRlNIQV5mxi7rRM4joNUBd4JFxuGS1ZMkBSF5/8mvIQ3qaytXA6uoPMGKLFaTXilkdGa+QfyVU13yb3gfQDPUUwabsg7y+hRtRbaKMihcbZOdVN0xlm2rGLMnmWpCavLMgmhjhMV4Cb/gnWrRXz/mjhKNGSWOOi/Zg0wnAWi5ZdpN+y11hbAg4xAtfe4gsiFisAH7XrD0mTRkojw3Ca7jdc/pDPN Will@Wills-MacBook-Air.local"
+            "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/qQ9pVZS4wPKhT3ZmIGQcHiHOluh3m4HKyFdo6HoCCm4mLRWK6jWg7MJXXQOJbqdeS+B+VmemxJqRYAb/XcsyR4Ku4BjZOisn79epsEf2BSfAczlKKSasqnCj67+MHVG8X+wHd8+2VdCe7Tv8XNg7xUsHYeZLmxiDPGF4nMx8u3+vew+dyPO82dExeOMt+jJLdD0xNtY0V2GR1Hv4CREdSF1nR5oRRt8NTXr5c7haLubgRDytDcTKmnXnXJEfHNGKy7uVceTCmmHVfVIVBHoV2X9eDDxjRRWnNYe7W709puQWLPM0n5jEDH8pLi9zsO8RC9D6OBJeGh5FV9M4TdZn root@will-desktop"
           }
         ]
       }
