@@ -13,6 +13,7 @@ runcmd:
 - systemctl restart docker
 - mkdir -p /etc/kubernetes/manifests
 - usermod -aG docker {{{username}}}
+- curl -L -sf https://raw.githubusercontent.com/ritazh/acs-k8s-gpu/master/install-nvidia-driver.sh | sudo sh
 
 write_files:
 - path: "/etc/systemd/system/docker.service.d/clear_mount_propagation_flags.conf"
